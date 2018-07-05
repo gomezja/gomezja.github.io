@@ -9,6 +9,176 @@ html, body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: #242c2e;
+    letter-spacing: 0.04em;
+    line-height: 1.7em;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/******************************************
+/* HEADER SIZES
+******************************************/
+/* min font-size */
+h1 {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 23px;
+    letter-spacing: 0.1em;
+
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: 0.15em;
+
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-size: 22px;
+    letter-spacing: 0.075em;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h7 {
+    font-weight: 600;
+    font-size: 18px;
+
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+}
+
+h7:hover {
+    text-decoration: underline;
+}
+
+/******************************************
+/* TEXT ALIGNMENT
+******************************************/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/******************************************
+/* FONT WEIGHT
+******************************************/
+.font-400 {
+    font-weight: 400;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+/******************************************
+/* COLORS
+******************************************/
+/* light cyan, highlight / main color */
+.color-1 {
+    color: #9cccc2;
+}
+
+/* lightest cyan, secondary color */
+.color-2 {
+    color: #aeccc6;
+}
+
+/* dark navy blue, darkest color */
+.color-3 {
+    color: #242c2e;
+}
+
+/* dark navy blue, darkest color */
+.background-color-3 {
+    background: #242c2e;
+}
+
+/* light grey, less important text */
+.color-4 {
+    color: #969696;
+}
+
+/* off white */
+.color-5 {
+    color: #f4f4f4;
+}
+
+/* off white */
+.background-color-5 {
+    background: #f4f4f4;
+}
+
+/* white */
+.background-color-6 {
+    background: #ffffff;
+}
+
+/* #bfbfbf darkest text color*/
+/* 7cc2b4 button color */
+
+/******************************************
+/* SHADOWS
+******************************************/
+.text-shadow {
+    text-shadow: 0px 2px 4px #4b4b4b;
+}
+
+.text-shadow-2 {
+    text-shadow: 0px 1px 2px #e9e8e8;
+}
+
+.text-shadow-3 {
+    text-shadow: 0px 2px 4px #171717;
+}
+
+.box-shadow {
+    box-shadow: #5c5c5c 0px 2px 4px;
+}
+
+.box-shadow-2 {
+    box-shadow: #383838 0 2px 3px;
+}
+
+.box-shadow-3 {
+    box-shadow: #cfcfcf 0px 1px 4px;
+}
+
+.box-shadow-4 {
+    box-shadow: #181818 0px 1px 4px
+}
+
 /**************************************
 /* NAVIGATION BAR
 **************************************/
@@ -81,15 +251,15 @@ html, body {
     transition: 0.4s;
 }
 
+.nav-link:hover {
+    color: #9cccc2;
+} 
+
 #current-page {
     color: #9cccc2;
 
     box-shadow: inset 0 -4px 0 0 #9cccc2;
 }
-
-.nav-link:hover {
-    color: #9cccc2;
-} 
 
 /******************************************
 /* HAMBURGER MENU ICON
@@ -169,100 +339,6 @@ html, body {
     justify-content: center;
 }
 
-/* min font-size */
-h1 {
-    font-size: 18px;
-    letter-spacing: 0.1em;
-}
-
-h2 {
-    font-size: 23px;
-    letter-spacing: 0.1em;
-
-    margin-bottom: 5px;
-}
-
-h3 {
-    font-size: 16px;
-    letter-spacing: 0.15em;
-
-    margin-bottom: 24px;
-}
-
-h4 {
-    font-size: 22px;
-    letter-spacing: 0.075em;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h6 {
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.font-400 {
-    font-weight: 400;
-}
-
-.font-600 {
-    font-weight: 600;
-}
-
-.color-1 {
-    color: #f4f4f4;
-}
-
-.color-2 {
-    color: #aeccc6;
-}
-
-.color-3 {
-    color: #5e5e5e;
-}
-
-.color-4 {
-    color: #9cccc2;
-}
-
-.text-shadow {
-    text-shadow: 0px 2px 4px #4b4b4b;
-}
-
-.text-shadow-2 {
-    text-shadow: 0px 1px 1px #9c9c9c;
-}
-
-.text-shadow-3 {
-    text-shadow: 0px 2px 4px #171717;
-}
-
-.box-shadow {
-    box-shadow: #5c5c5c 0px 2px 4px;
-}
-
-.box-shadow-2 {
-    box-shadow: #383838 0 2px 3px;
-}
-
-.box-shadow-3 {
-    box-shadow: #cfcfcf 0px 1px 4px;
-}
-
-.box-shadow-4 {
-    box-shadow: #181818 0px 1px 4px
-}
-
 /******************************************
 /* BUTTON
 ******************************************/
@@ -298,7 +374,7 @@ h6 {
 }
 
 /******************************************
-/* HOMEPAGE CONTENT
+/* HOMEPAGE
 ******************************************/
 .my-buttons, .social-media {
     display: flex;
@@ -330,12 +406,35 @@ h6 {
 }
 
 /******************************************
-/* CONTACT PAGE
+/* PORTFOLIO PAGE
 ******************************************/
-.background-color-1 {
-    background: #f4f4f4;
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
+.portfolio-col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    min-width: 160px;
+    padding: 9px;
+}
+
+.portfolio-cell {
+    color: black;
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    padding: 36px;
+}
+
+/******************************************
+/* CONTACT PAGE
+******************************************/
 .row {
     display: flex;
     align-items: center;
@@ -353,8 +452,6 @@ h6 {
 }
 
 .contact-cell {
-    background: #ffffff;
-
     width: 225px;
     height: 225px;
     border-radius: 5px;
@@ -403,107 +500,8 @@ h6 {
 }
 
 /******************************************
-/* MEDIA QUERIES
-******************************************/
-@media screen and (max-width: 700px) {
-    .nav-content {
-        display: none;
-    }
-
-    .nav-icon {
-        display: block;
-    }
-
-    .responsive {
-        position: absolute;
-        right: 0;
-        top: 70px;
-        display: flex;
-        flex-direction: column;
-        max-width: 700px;
-        z-index: 1;
-    }
-
-    .responsive .nav-link {
-        background: rgba(36,44,46,0.95);
-        padding: 8px;
-        border-bottom: solid 1px rgba(174,204,198,0.4);
-    }
-
-    #current-page {
-        box-shadow: none;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .social-media {
-        justify-content: center;
-    }
-}
-
-/* scale font-size */
-@media screen and (min-width: 320px) {
-    h1 {
-        font-size: calc(18px + 14 * ((100vw - 320px) / 680));
-        letter-spacing: 0.1em;
-    }
-
-    h2 {
-        font-size: calc(23px + 22 * ((100vw - 320px) / 680));
-        letter-spacing: 0.1em;
-    }
-
-    h4 {
-        font-size: calc(22px + 14 * ((100vw - 320px) / 680));
-        letter-spacing: 0.1em;
-    }
-}
-
-/* max font-size */
-@media screen and (min-width: 1000px) {
-    h1 {
-        font-size: 32px;
-    }
-
-    h2 {
-        font-size: 45px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4 {
-        font-size: 36px;
-    }
-
-    h5 {
-        font-size: 18px;
-    }
-
-    h6 {
-        font-size: 16px;
-    }
-}
-
-/* contact page - small screen */
-@media screen and (max-width: 760px) {
-    .row {
-        flex-direction: column;
-    }
-
-    .row > .contact-cell:not(:last-child) {
-        margin-bottom: 36px;
-    }
-}
-
-/******************************************
 /* FOOTER
 ******************************************/
-.background-color-2 {
-    background: #242c2e;
-}
-
 .footer-container {
     padding: 50px 0;
     margin: 0 8.33%;
@@ -558,6 +556,106 @@ h6 {
     margin-bottom: 16px;
 }
 
+/******************************************
+/* MEDIA QUERIES
+******************************************/
+/* NAVIGATION BAR sizing for devices smaller than 700px */
+@media screen and (max-width: 700px) {
+    .nav-content {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    .responsive {
+        position: absolute;
+        right: 0;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        z-index: 1;
+    }
+
+    .responsive .nav-link {
+        background: rgba(36,44,46,0.95);
+        padding: 8px;
+        border-bottom: solid 1px rgba(174,204,198,0.4);
+    }
+
+    #current-page {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .social-media {
+        justify-content: center;
+    }
+}
+
+/* HEADER scale font-size */
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: calc(18px + 14 * ((100vw - 320px) / 680));
+        letter-spacing: 0.1em;
+    }
+
+    h2 {
+        font-size: calc(23px + 22 * ((100vw - 320px) / 680));
+        letter-spacing: 0.1em;
+    }
+
+    h4 {
+        font-size: calc(22px + 14 * ((100vw - 320px) / 680));
+        letter-spacing: 0.1em;
+    }
+
+    h5 {
+        font-size: calc(18px + 2 * ((100vw - 320px) / 680));
+        letter-spacing: 0.1em;
+    }
+
+    h7 {
+        font-size: calc(18px + 2 * ((100vw - 320px) / 680));
+        letter-spacing: 0.1em;
+    }
+}
+
+/* HEADER max font-size */
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    h7 {
+        font-size: 20px;
+    }
+}
+
+/* FOOTER flex direction for different footer elements */
 @media screen and (max-width: 670px) {
     .footer-row {
         flex-direction: column;
@@ -578,5 +676,34 @@ h6 {
 
     .footer-row > *:not(:last-child) {
         margin-bottom: 16px;
+    }
+}
+
+/* PORTFOLIO columns for devices with screen size smaller than 1000px */
+@media screen and (max-width: 1000px) {
+    .portfolio-col {
+        flex: 50%;
+        max-width: 50%;
+        
+    }
+}
+
+/* PORTFOLIO columns for devices with screen size smaller than 670px */
+@media screen and (max-width: 670px) {
+    .portfolio-col {
+        flex: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+/* CONTACT row direction for devices with screen size smaller than 760px */
+@media screen and (max-width: 760px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row > .contact-cell:not(:last-child) {
+        margin-bottom: 36px;
     }
 }
