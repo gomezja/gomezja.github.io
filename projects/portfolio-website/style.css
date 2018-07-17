@@ -1,0 +1,323 @@
+/*all content*/
+body, html {
+	height: 100%;
+	
+	/* font stuff */
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    /* color: #404040; */
+}
+
+/*****************************************************/
+/* custom header stuff */
+/*****************************************************/
+
+/* homepage title */
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px #404040, 0 0 10px #404040;
+
+    padding-bottom: 20px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* homepage intro */
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px #404040, 0 0 10px #404040;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+/* topic header */
+h3 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* characteristic header */
+h4 {
+    font-size: 24px;
+    color: #d3f100;
+}
+
+/* minor text */
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+/* info paragraphs */
+p {
+    /* 24 */
+    font-size: 18px; 
+    letter-spacing: 1.5px;
+}
+
+/*****************************************************/
+/* specific stuff */
+/*****************************************************/
+
+.center-this {
+    text-align: center;
+}
+
+.underline-this {
+    border-bottom: 3px solid #d3f100;
+    padding-bottom: 5px;
+}
+
+.underline-this-link {
+    border-bottom: 2px solid #d3f100;
+    padding-bottom: 2px;
+}
+
+.py-custom {
+    padding: 17px 0;
+}
+
+.box-shadow {
+    box-shadow: 0 0 4px #737373;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#contact-info {
+    text-align: center;
+    padding: 25px;
+}
+
+/*****************************************************/
+/* custom color stuff */
+/*****************************************************/
+
+/* green color */
+.color-one {
+    background-color: #d3f100;
+}
+
+.text-color-one {
+    color: #d3f100;
+}
+
+/* dark gray color */
+.color-two {
+    background-color: #404040;
+}
+
+/* light gray color */
+.color-three {
+    background-color: #737373;
+}
+
+/* white color */
+.text-color-four {
+    color: white;
+}
+
+.color-four {
+    background-color: #f2f2f2;
+}
+/*****************************************************/
+/* custom navbar stuff */
+/*****************************************************/
+
+/* navbar background color */
+.navbar-custom {
+	background-color: #404040;
+	border-bottom: 3px solid #d3f100;
+}
+
+/* navbar brand text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-link, 
+.brand-name .gomezja {
+	color: #d3f100;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* navbar active links */
+.navbar-custom .nav-item.active .nav-link {
+    color: #9eb300;
+    border-bottom: 2px solid #9eb300;
+    padding-bottom: 2px;
+}
+
+/* navbar hovered links */
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .navbar-brand:hover {
+    color: #9eb300;
+}
+
+/*****************************************************/
+/* custom image stuff */
+/*****************************************************/
+
+/* portfolio example image */
+#img-homepage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#img-homepage:hover {
+    box-shadow: 0 0 3px #404040;
+}
+
+/*****************************************************/
+/* custom button stuff */
+/*****************************************************/
+
+/* custom button */
+.btn-custom {
+    background-color: #d3f100;
+    width: 254px;
+    height: 60px;
+    border-radius: 5px;
+
+    font-size: 28px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 3px #404040;
+}
+
+.btn-custom:hover {
+    box-shadow: 0 0 4px #404040;
+    cursor: pointer;
+}
+
+#to-top {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    transition-timing-function: ease;
+}
+
+#to-top:hover {
+    text-decoration: underline;
+}
+
+/*****************************************************/
+/* circle stuff */
+/*****************************************************/
+
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle {
+    height: 115px;
+    width: 115px;
+    margin: 20px auto;
+
+    background: #404040;
+    display: table;
+
+    border-radius: 100px;
+    -moz-border-radius: 100px; 
+    -webkit-border-radius: 100px; 
+}
+
+.circle h4 {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/*****************************************************/
+/* custom footer stuff */
+/*****************************************************/
+
+/* page footer */
+.footer a {
+    font-size: 20px;
+    color: #d3f100;
+    text-decoration: none;
+    padding: 0 5px;
+ }
+
+  a:hover {
+    color: #9eb300;
+    text-decoration: none;
+ }
+
+ /*****************************************************/
+/* custom padding, margin stuff */
+/*****************************************************/
+
+.no-padding {
+    padding: 2%;
+  }
+
+  .my-custom {
+      margin-top: 8%;
+      margin-bottom: 8%;
+  }
+
+/*****************************************************/
+/* custom portfolio stuff */
+/*****************************************************/
+  .portfolio-cell a {
+      color: black;
+  }
+
+.portfolio-cell:hover {
+    box-shadow: 0 0 5px #404040;
+}
+
+.portfolio-description {
+    text-align: center;
+    padding: 25px;
+    height: 125px;
+}
+
+.img-cell {
+    object-position: 0 0;
+    object-fit: cover;
+    position: static;
+    width: 100%;
+    /* height: 410px; */
+    height: 55vh;
+}
+
+/* @media (min-width: 1200px) {
+    .img-cell {
+        height: 410px;
+    }
+}
+
+@media (max-width: 992px) {
+    .img-cell {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-cell {
+        height: 260px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-cell {
+        height: 200px;
+    }
+} */
