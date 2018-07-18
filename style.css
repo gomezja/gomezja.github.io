@@ -518,8 +518,7 @@ h7:hover, h5:hover {
     padding: 9px;
 }
 
-.portfolio-cell {
-    color: black;
+.portfolio-cell, .contact-cell {
     display: block;
     height: 100%;
     border-radius: 5px;
@@ -529,62 +528,34 @@ h7:hover, h5:hover {
     padding: 36px;
 }
 
-
-
-/******************************************
-/* CONTENT MANAGEMENT
-******************************************/
-.container {
-    margin-left: 8.33%;
-    margin-right: 8.33%;
-}
-
-.section-container {
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
-
-.content-center {
-    align-items: center;
-    justify-content: space-around;
-}
-
-.mt-64 {
-    margin-top: 64px;
-}
-
-.row, .about-row {
-    display: flex;
-}
-
-.padding-1 {
-    padding: 64px 0;
-}
-
 /******************************************
 /* CONTACT PAGE
 ******************************************/
-.contact-cell {
-    width: 225px;
-    height: 225px;
-    border-radius: 5px;
-
-    margin-left: 8px;
-    margin-right: 8px;
-
-    /* interior content */
+.contact-row {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
-/* all direct descendants of col-4 and not the last child */
-.contact-cell > *:not(:last-child) {
-    margin-bottom: 10px;
+.contact-col {
+    flex: 33.33%;
+    max-width: 275px;
+    padding: 9px;
 }
 
-/* CONTACT 3 ICONS */
+.contact-center {
+    justify-content: space-between;
+}
+
+.contact-description {
+    padding: 18px 36px 36px;
+}
+
+.contact-img {
+    padding: 36px 36px 0px; 
+}
+
+/* contact 3 icons */
 .circle-3 {
     height: 70px;
     width: 70px;
@@ -679,6 +650,36 @@ footer {
 }
 
 /******************************************
+/* CONTENT MANAGEMENT
+******************************************/
+.container {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+}
+
+.section-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.content-center {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.row, .about-row {
+    display: flex;
+}
+
+.padding-1 {
+    padding: 64px 0;
+}
+
+/******************************************
 /* MEDIA QUERIES
 ******************************************/
 /* NAVIGATION BAR sizing for devices smaller than 700px */
@@ -702,6 +703,7 @@ footer {
     }
 
     .responsive .nav-link {
+        display: block;
         background: rgba(36,44,46,0.95);
         padding: 8px;
         border-bottom: solid 1px rgba(174,204,198,0.4);
@@ -845,7 +847,15 @@ footer {
         flex-direction: column;
     }
 
-    .row > .contact-cell:not(:last-child) {
-        margin-bottom: 36px;
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-center {
+        align-items: center;
+    }
+
+    .contact-col {
+        margin-bottom: 18px;
     }
 }
