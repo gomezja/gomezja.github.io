@@ -465,6 +465,10 @@ h7:hover, h5:hover {
     margin-top: 25px;
 }
 
+.img-self {
+    filter: grayscale(20%);
+}
+
 .characteristics {
     display: flex;
     flex-direction: row;
